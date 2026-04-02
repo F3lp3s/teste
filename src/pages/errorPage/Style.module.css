@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  height: 85vh;
+  background-image: url("/galaxy-night.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main img {
+   width: 15em;
+}

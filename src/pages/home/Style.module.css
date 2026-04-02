@@ -1,0 +1,27 @@
+.main {
+  width: 100%;
+  height: 85vh;
+  background-image: url("/galaxy-night.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2em;
+  box-sizing: border-box;
+}
+
+.main h1 {
+  font-size: 4em;
+  margin-bottom: .5em;
+}
+
+.main p {
+  max-width: 25em;
+  margin: 1.5em;
+}
+
+@media (max-width: 650px) {
+
+}
