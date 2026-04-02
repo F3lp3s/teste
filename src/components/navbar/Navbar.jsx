@@ -13,11 +13,11 @@ const Navbar = () => {
         <h1>Register World!</h1>
       </div>
       <div className={ style.linksContainer }>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/teste" style={{ textDecoration: "none" }}>
           <img src={ homeIcon } alt="" />
           <span>Home</span>
         </Link>
-        <Link to="/user" style={{ textDecoration: "none" }}>
+        <Link to="/teste/user" style={{ textDecoration: "none" }}>
           <img src={ searchIcon } alt="" />
           <span>Register and search</span>
         </Link>
